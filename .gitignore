@@ -143,3 +143,4 @@ item.csv:Zone.Identifier
 
 config_api.py
 dinara.session
+dinara.session-journal
