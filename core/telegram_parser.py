@@ -2,7 +2,6 @@ import re
 import json
 
 from core.models import Post
-from telethon.sync import TelegramClient
 from bs4 import BeautifulSoup
 import requests
 
