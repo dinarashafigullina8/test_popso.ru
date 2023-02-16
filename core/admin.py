@@ -1,3 +1,8 @@
 from django.contrib import admin
+from core.models import Post
 
-# Register your models here.
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('tag', 'date', 'content','post_id', 'photo' )
+    search_fields = ('tag', 'date', 'post_id')
+    
+admin.site.register(Post,PostAdmin)
